@@ -79,57 +79,57 @@ function resetState() {
 var questions = [
 
 {
-    question: 'What is my name?',
+    question: 'Which method combines the text of two strings and returns a new string?',
     answers: [
-        {text: 'Nikki', correct: true },
-        {text: 'Ryan', correct: false },
-        {text: 'Mark', correct: false },
-        {text: 'Kevin', correct: false }
+        {text: 'concat()', correct: true },
+        {text: 'append()', correct: false },
+        {text: 'attach()', correct: false },
+        {text: 'none of these', correct: false }
     ]
 },
 {
-    question: 'What is 2+2?',
+    question: 'Which function causes a string to be displayed in a specified size?',
     answers: [
-        {text: '6', correct: false },
-        {text: '8', correct: false },
-        {text: '4', correct: true },
-        {text: '3', correct: false }
+        {text: 'fixed()', correct: false },
+        {text: 'fontcolor()', correct: false },
+        {text: 'fontsize()', correct: true },
+        {text: 'bold()', correct: false }
     ]
 },
 {
-    question: 'What is the best fast food chain?',
+    question: 'Where should you link the JavaScript within the HTML?',
     answers: [
-        {text: 'McDonalds', correct: false },
-        {text: 'InNOut', correct: true },
-        {text: 'Five Guys', correct: false },
-        {text: 'Taco Bell', correct: false }
+        {text: 'before the body', correct: false },
+        {text: 'at the end of the body', correct: true },
+        {text: 'within the header', correct: false },
+        {text: 'in the footnote', correct: false }
     ]
 },
 {
-    question: 'What is my favorite color?',
+    question: 'What is JavaScript used for?',
     answers: [
-        {text: 'Yellow', correct: false },
-        {text: 'Red', correct: false },
-        {text: 'Blue', correct: false },
-        {text: 'Green', correct: true }
+        {text: 'content of webpage', correct: false },
+        {text: 'license of content', correct: false },
+        {text: 'style of content', correct: false },
+        {text: 'functionality of content', correct: true }
     ]
 },
 {
-    question: 'What is the capital of Georgia?',
+    question: 'What is a free front-end framework for web development?',
     answers: [
-        {text: 'Raleigh', correct: false },
-        {text: 'Atlanta', correct: true },
-        {text: 'NewYork', correct: false },
-        {text: 'Cleveland', correct: false }
+        {text: 'Sneakerlace', correct: false },
+        {text: 'Bootstrap', correct: true },
+        {text: 'FunctionFarm', correct: false },
+        {text: 'GoogleFunction', correct: false }
     ]
 },
 {
-    question: 'Whats for dinner?',
+    question: 'What is a popular JavaScript library?',
     answers: [
-        {text: 'Soup', correct: true },
-        {text: 'Pizza', correct: false },
-        {text: 'Tacos', correct: false },
-        {text: 'Pasta', correct: false }
+        {text: 'jQuery', correct: true },
+        {text: 'zFactory', correct: false },
+        {text: 'kList', correct: false },
+        {text: 'tHub', correct: false }
     ]
 },
 
