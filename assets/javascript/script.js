@@ -1,3 +1,4 @@
+//* Defined Variables
 var startButton = document.getElementById('start-btn');
 var questionContainer = document.getElementById('question-container');
 var questionElement = document.getElementById('question');
@@ -7,6 +8,7 @@ var currentQuestionIndex = 0;
 var time = 60;
 var timer;
 
+//* Quiz question flow/conclusion
 startButton.addEventListener('click', startQuiz);
 answerButtonsElement.addEventListener('click', function (e) {
   if (!e.target.classList.contains('btn')) return;
@@ -26,6 +28,7 @@ answerButtonsElement.addEventListener('click', function (e) {
   }
 });
 
+//* Start Button Functionality
 function startQuiz() {
   startButton.classList.add('hide');
   currentQuestionIndex = 0;
@@ -37,6 +40,7 @@ function startQuiz() {
   startTimer();
 }
 
+//* Quiz Timer Function
 function startTimer() {
   timer = setInterval(function () {
     time--;
@@ -58,6 +62,7 @@ function finishQuiz() {
   questionContainer.classList.add('hide');
 }
 
+//* Quiz Question/Answer display functionality
 function showQuestion(question) {
   resetState();
   questionElement.innerText = question.question;
@@ -76,6 +81,7 @@ function resetState() {
   answerButtonsElement.innerHTML = '';
 }
 
+//* Quizz questions/answers
 var questions = [
 
 {
@@ -132,7 +138,4 @@ var questions = [
         {text: 'tHub', correct: false }
     ]
 },
-
-
-
 ]

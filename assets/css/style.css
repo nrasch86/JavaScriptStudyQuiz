@@ -3,12 +3,12 @@
 *::after {
   box-sizing: border-box;
 }
-
+/* Timer Styling */
 #timer {
     margin-top: 10px;
     font-size: 1.2rem;
   }  
-
+/* Body Styling */
 body {
 
     padding: 0;
@@ -20,7 +20,7 @@ body {
     align-items: center;
     background-color: darkcyan;
 }
-
+/* Quiz Box Content Styling */
 .wrapper {
     max-width: 800px;
     width: 100%; 
@@ -38,7 +38,7 @@ body {
     border-radius: 5px;
     padding: 10px;
 }
-
+/* Button format */
 .btn-grid {
 
     display: grid;
@@ -46,7 +46,7 @@ body {
     gap: 10px;
     margin: 20px 0;
 }
-
+/* Button Styling */
 .btn{
     border: 1px solid;
     background-color: rgb(49, 80, 80);
@@ -55,18 +55,18 @@ body {
     color:rgb(255, 255, 255);
     outline: none
 }
-
+/* Button hover effect */
 .btn:hover{
     border-color: black;
 }
-
+/*Start button style */
 .start-btn {
 
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
 }
-
+/* Start button formatting */
 .controls{
     display: flex;
     justify-content: center;
